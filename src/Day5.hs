@@ -18,6 +18,7 @@ findSeatId (Range a b, Range c d)
   | a == b && c == d = a * 8 + c
   | otherwise = error "Bad range"
 
+allSeats :: [String] -> [Int]
 allSeats = fmap (findSeatId . foldl (flip solve) (Range 0 127, Range 0 7))
 
 day5p1 = maximum . allSeats
