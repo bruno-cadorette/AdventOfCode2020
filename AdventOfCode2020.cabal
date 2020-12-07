@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 67cec798025e1dc81fa15cbcdb87fb9a02a18469783b96cd9c21fb9a078cd49e
+-- hash: 95f793b63249695584f8b066943f4b39de5835660452c1a4e598915fd924bfb8
 
 name:           AdventOfCode2020
 version:        0.1.0.0
@@ -33,6 +33,7 @@ library
       Day4
       Day5
       Day6
+      Day7
       Lib
   other-modules:
       Paths_AdventOfCode2020
@@ -42,6 +43,7 @@ library
       array
     , base >=4.7 && <5
     , containers
+    , data-fix
     , megaparsec
     , split
   default-language: Haskell2010
@@ -58,6 +60,7 @@ executable AdventOfCode2020-exe
     , array
     , base >=4.7 && <5
     , containers
+    , data-fix
     , megaparsec
     , split
   default-language: Haskell2010
@@ -75,6 +78,7 @@ test-suite AdventOfCode2020-test
     , array
     , base >=4.7 && <5
     , containers
+    , data-fix
     , megaparsec
     , split
   default-language: Haskell2010

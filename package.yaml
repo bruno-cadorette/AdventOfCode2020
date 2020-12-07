@@ -25,6 +25,7 @@ dependencies:
 - containers
 - array
 - split
+- data-fix
 
 library:
   source-dirs: src
