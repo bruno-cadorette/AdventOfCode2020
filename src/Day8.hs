@@ -1,3 +1,4 @@
+{-# LANGUAGE TypeFamilies #-}
 module Day8 where
 
 import Text.Megaparsec

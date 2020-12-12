@@ -8,7 +8,6 @@ import qualified Data.Set as Set
 import qualified Data.Map as Map
 import Data.Void
 import Data.Maybe
-import Data.Fix
 import Data.Tree
 import Data.List
 import Data.Coerce

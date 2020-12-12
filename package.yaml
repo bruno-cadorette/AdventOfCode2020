@@ -25,7 +25,8 @@ dependencies:
 - containers
 - array
 - split
-- data-fix
+- transformers
+- mtl
 
 library:
   source-dirs: src
